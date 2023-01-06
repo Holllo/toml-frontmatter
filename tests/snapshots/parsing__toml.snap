@@ -1,0 +1,5 @@
+---
+source: tests/parsing.rs
+expression: toml
+---
+date = '2023-01-01'

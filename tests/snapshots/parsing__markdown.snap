@@ -1,0 +1,7 @@
+---
+source: tests/parsing.rs
+expression: markdown
+---
+# Some Markdown
+
+With text!
