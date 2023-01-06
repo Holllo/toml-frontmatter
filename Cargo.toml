@@ -5,7 +5,7 @@ name = "toml-frontmatter"
 description = "TOML frontmatter parser."
 repository = "https://git.bauke.xyz/Holllo/toml-frontmatter"
 license = "MIT OR Apache-2.0"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Holllo <helllo@holllo.org>"]
 edition = "2021"
 
