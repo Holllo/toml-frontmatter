@@ -27,7 +27,8 @@ return the remaining contents of the string.
 This function will return an [`Err`] when:
 
 - the data doesn't have a frontmatter section,
-- the frontmatter isn't at the beginning of the data.
+- the frontmatter isn't at the beginning of the data,
+- the TOML fails to parse.
 
 ## Example
 
