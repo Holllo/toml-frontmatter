@@ -13,13 +13,13 @@ edition = "2021"
 path = "source/lib.rs"
 
 [dependencies]
-anyhow = "1.0.68"
-toml = "0.5.10"
+anyhow = "1.0.79"
+toml = "0.8.9"
 
 [dependencies.serde]
 features = ["derive"]
-version = "1.0.152"
+version = "1.0.196"
 
 [dev-dependencies.insta]
 features = ["toml"]
-version = "1.24.1"
+version = "1.34.0"

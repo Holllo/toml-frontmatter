@@ -49,7 +49,7 @@ Some **Markdown**. Or something else!
 let (frontmatter, markdown) = toml_frontmatter::parse::<Frontmatter>(sample).unwrap();
 ```
 */
-pub fn parse<'a, D: Deserialize<'a>>(data: &'a str) -> Result<(D, &'a str)> {
+pub fn parse<D: for<'de> Deserialize<'de>>(data: &str) -> Result<(D, &str)> {
   let start_marker = "---toml\n";
   let end_marker = "\n---\n";
 
